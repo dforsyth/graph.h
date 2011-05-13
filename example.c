@@ -57,7 +57,7 @@ main(int argc, char **argv)
 	printf("done.\n");
 
 	printf("Connecting nodes...");
-	for (i = 0; i < SZ; ++i) {
+	for (e = NULL, i = 0; i < SZ; ++i) {
 		// hope everything's where it should be :O
 		ksrc.id = i;
 		for (j = 0; j < SZ; ++j) {
