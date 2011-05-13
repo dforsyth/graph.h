@@ -1,6 +1,8 @@
 #ifndef __GRAPH_H__
 #define __GRAPH_H__
 
+/* Build with c99, decls in for loops... */
+
 #define DIGRAPH_CLOUD(name, vert_t, sz)					\
 struct name {								\
 	struct vert_t *map[sz];						\
